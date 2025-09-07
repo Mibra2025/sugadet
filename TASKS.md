@@ -19,10 +19,10 @@ This document outlines all tasks needed to transform the barcode scanner into an
 
 ### Data Models
 - [x] **FoodProduct model** - Barcode, name, brand, ingredients, nutritional info
-- [ ] **AIResponse model** - Sugar detection results with confidence scores
-- [ ] **ScanResult model** - Unified result type for both scan modes
-- [ ] **SugarAnalysis model** - Detailed sugar breakdown and types
-- [ ] **APIResponse models** - Open Food Facts API response structures
+- [x] **AIResponse model** - Sugar detection results with confidence scores
+- [x] **ScanResult model** - Unified result type for both scan modes
+- [x] **SugarAnalysis model** - Detailed sugar breakdown and types
+- [x] **APIResponse models** - Open Food Facts API response structures
 
 ### Network Layer
 - [ ] **NetworkManager** - Base networking service with error handling
