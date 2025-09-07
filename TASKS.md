@@ -25,11 +25,11 @@ This document outlines all tasks needed to transform the barcode scanner into an
 - [x] **APIResponse models** - Open Food Facts API response structures
 
 ### Network Layer
-- [ ] **NetworkManager** - Base networking service with error handling
-- [ ] **OpenFoodFactsService** - API integration for barcode lookups
-- [ ] **AIService** - Integration with AI service for ingredient analysis
-- [ ] **CacheManager** - Local caching for API responses and AI results
-- [ ] **RequestQueue** - Handle rate limiting and retry logic
+- [x] **NetworkManager** - Base networking service with error handling
+- [x] **OpenFoodFactsService** - API integration for barcode lookups
+- [x] **AIService** - Integration with AI service for ingredient analysis
+- [x] **CacheManager** - Local caching for API responses and AI results
+- [x] **RequestQueue** - Handle rate limiting and retry logic
 
 ## Phase 3: Enhanced Camera System
 

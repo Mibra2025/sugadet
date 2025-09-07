@@ -78,7 +78,12 @@ final class ScannerVC: UIViewController {
         if captureSession.canAddOutput(metaDataOutput) {
             captureSession.addOutput(metaDataOutput)
             metaDataOutput.setMetadataObjectsDelegate(self, queue: DispatchQueue.main)
-            metaDataOutput.metadataObjectTypes = [.ean8, .ean13]
+            metaDataOutput.metadataObjectTypes = [.ean8, .ean13, .upce,
+                                                  .code128,
+                                                  .code39,
+                                                  .code93,
+                                                  .pdf417,
+                                                  .qr]
         } else {
             scannerDelegate?.didSurface(error: .invalidDeviceInput)
             return
